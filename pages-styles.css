@@ -1,0 +1,115 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('images/page_background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'Analogist';
+    src: url('fonts/Analogist/Analogist.ttf');
+}
+
+@font-face {
+    font-family: 'Andreas';
+    src: url('fonts/Andreas/Andreas.ttf');
+}
+
+@font-face {
+    font-family: 'AidaSerifa-Condensed';
+    src: url('fonts/AidaSerifa-Condensed.ttf');
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    margin: 15px;
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color from the parent element */
+}
+
+a:hover {
+    color: white;
+}
+
+iframe {
+    border-radius: 10px; /* Adjust the radius to your preference */
+}
+
+.logo {
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    font-family: 'Andreas';
+    font-size: 80px; 
+}
+
+.menu-bar {
+    display: flex; /* Use flexbox */
+    align-items: center;
+    justify-content: center; /* Horizontal alignment in the center */
+}
+
+.menu-item {
+    font-family: 'AidaSerifa-Condensed';
+    font-size: 25px;
+    margin: 0 10px; 
+}
+
+.menu-item:hover {
+    color: white;
+}
+
+.videos-container{
+    margin: 5vh;
+    display: flex; /* Use flexbox */
+    align-items: center;
+    gap:4vh;
+    justify-content: center; /* Horizontal alignment in the center */
+}
+
+.prayers {
+    margin-top: none;
+    margin-bottom: 7vh;
+    display: flex; /* Use flexbox */
+    align-items: center;
+    gap:3vh;
+    justify-content: center; /* Horizontal alignment in the center */
+}
+
+.prayer-box {
+    text-align: center;
+    font-family: 'AidaSerifa-Condensed';
+    font-size: 17px;
+}
+
+.resources-container {
+    margin-top: 15px;
+    margin-bottom: 7vh;
+    display: flex; /* Use flexbox */
+    align-items: center;
+    gap:7vh;
+    justify-content: center; /* Horizontal alignment in the center */
+}
+
+.resources-box {
+    font-family: 'AidaSerifa-Condensed';
+    font-size: 17px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
